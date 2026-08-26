@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RE Wholesale Direct | Off-Market Investment Properties</title>
+<meta name="description" content="Off-market wholesale investment properties, curated by TJ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="re-styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark">RE</span>
+      <span class="brand-text">Wholesale<em>Direct</em></span>
+    </a>
+    <nav class="site-nav">
+      <a href="#properties">Properties</a>
+      <a href="#sold">Sold</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- Featured Property -->
+  <section id="featured" class="featured-section">
+    <div class="featured-eyebrow">
+      <span class="dot"></span> Featured Opportunity
+    </div>
+    <div id="featured-card-slot" class="featured-slot">
+      <!-- injected by script.js -->
+      <div class="skeleton skeleton-featured"></div>
+    </div>
+  </section>
+
+  <!-- Waterfall of active properties -->
+  <section id="properties" class="waterfall-section">
+    <h2 class="section-title">More Opportunities</h2>
+    <p class="section-sub">Each listing below flows from the last, exactly the way our deal pipeline works: steady, sourced off-market, and moving.</p>
+    <div id="waterfall-slot" class="waterfall-track">
+      <!-- injected by script.js -->
+    </div>
+  </section>
+
+  <!-- Sold gallery -->
+  <section id="sold" class="sold-section">
+    <h2 class="section-title">Sold</h2>
+    <p class="section-sub">Closed deals from our pipeline.</p>
+    <div id="sold-slot" class="sold-grid">
+      <!-- injected by script.js -->
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section id="contact" class="contact-section">
+    <h2 class="contact-title">Ready to move on the next one?</h2>
+    <p class="contact-sub">Off-market deals go fast. Reach out and we'll get you the numbers first.</p>
+
+    <a class="contact-phone" href="tel:+14243439007">
+      <span class="contact-phone-label">Call Us</span>
+      <span class="contact-phone-number">(424) 343-9007</span>
+    </a>
+
+    <a class="contact-email" href="mailto:callus@rewholesale.direct">callus@rewholesale.direct</a>
+
+    <div class="contact-qr">
+      <img src="qr-code.png" alt="Scan to message us on WhatsApp" width="140" height="148">
+      <p class="contact-qr-caption">Scan to message us on WhatsApp</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> RE Wholesale Direct. All property data deemed reliable but not guaranteed. Buyers should independently verify all figures.</p>
+</footer>
+
+<script src="re-script.js"></script>
+</body>
+</html>
